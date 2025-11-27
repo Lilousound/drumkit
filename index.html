@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Kit</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div id="drum-machine">
+      <h1>🥁 Drum Kit 🥁</h1>
+      <p><em>Utilisez votre clavier ou cliquez sur les pads</em></p>
+      <div id="pad-bank">
+        <button class="drum-pad" id="pad1">A<audio src="sounds/Boom.wav" class="clip" id="A"></audio></button>
+        <button class="drum-pad" id="pad2">Z<audio src="sounds/Tom.wav" class="clip" id="Z"></audio></button>
+        <button class="drum-pad" id="pad3">E<audio src="sounds/Kick.wav" class="clip" id="E"></audio></button>
+        <button class="drum-pad" id="pad4">Q<audio src="sounds/Clap.wav" class="clip" id="Q"></audio></button>
+        <button class="drum-pad" id="pad5">S<audio src="sounds/Tink.wav" class="clip" id="S"></audio></button>
+        <button class="drum-pad" id="pad6">D<audio src="sounds/Snare.wav" class="clip" id="D"></audio></button>
+        <button class="drum-pad" id="pad7">W<audio src="sounds/Hihat.wav" class="clip" id="W"></audio></button>
+        <button class="drum-pad" id="pad8">X<audio src="sounds/Ride.wav" class="clip" id="X"></audio></button>
+        <button class="drum-pad" id="pad9">C<audio src="sounds/Openhat.wav" class="clip" id="C"></audio></button>
+      </div>
+      <p id="display"><em>Son joué</em></p>
+    </div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>

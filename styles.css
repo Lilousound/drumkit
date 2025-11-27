@@ -1,0 +1,61 @@
+body{
+  /* background-color: #17242d; */
+  background-image:linear-gradient(rgba(6, 22, 26, 0.771)), url('img/drumkit.jpg');
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  width: 500px;
+}
+p{
+  font-size: 15px;
+}
+.drum-pad{
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(190deg, #13daf0, #234497) 1;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+}
+button:active{
+
+  transform: scale(1.1);
+  border-color: #00CED6;
+  box-shadow: 0 0 1.1rem #00CED6;
+}
+.playing{
+
+  transform: scale(1.1);
+  border-color: #00CED6;
+  box-shadow: 0 0 1.1rem #00CED6;
+}
+
+#drum-machine{
+  border: 2px solid #f4f4f4;
+  outline: 1px solid rgb(0, 0, 0);
+  background-image: linear-gradient(190deg, #079fb4, #00135e);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: #1e1e1e8a 4px 4px 8px 4px;
+}
+#pad-bank{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  margin-bottom: 20px;
+}
+
+#display{
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px dashed #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 40%;
+}
